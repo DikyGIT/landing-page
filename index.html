@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>HOME | Landing Page</title>
+  </head>
+  <body id="home">
+    <header>
+      <!-- navigation -->
+      <section class="navigation">
+        <div class="container">
+          <div class="box-navigation animate__animated animate__fadeInDown">
+            <div class="box">
+              <h1>Logo</h1>
+            </div>
+            <div class="box menu-navigation">
+              <ul>
+                <li>
+                  <i class="ri-home-3-line"></i>
+                  <a href="#home">Beranda</a>
+                </li>
+                <li>
+                  <i class="ri-information-line"></i>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <i class="ri-dashboard-line"></i>
+                  <a href="#famous">Famous</a>
+                </li>
+                <li>
+                  <i class="ri-image-line"></i>
+                  <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                  <i class="ri-phone-line"></i>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="box menu-bar">
+              <i class="ri-menu-3-fill" style="color: white"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- navigation -->
+
+      <!-- hero -->
+      <section class="hero">
+        <h1 class="animate__animated animate__pulse">Amazing Mountain yang ada di seluruh Dunia</h1>
+      </section>
+      <!-- hero -->
+    </header>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="box-about">
+          <div class="box" data-aos="fade-right" data-aos-duration="1000">
+            <h1>Mountain</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio suscipit, voluptas, ducimus, libero at magni blanditiis quis nam consequuntur facere possimus quas. Cumque voluptatem temporibus, consequuntur ipsum ipsa
+              quisquam. Saepe?
+            </p>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="./image/1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+
+    <!-- famous -->
+    <section class="famous" id="famous">
+      <div class="container">
+        <div class="box-famous">
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+            <img src="./image/everest-famous.jpg" alt="" />
+            <h1>Everest Mountain</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime provident nisi, aliquam cum non magni.</p>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+            <img src="./image/fuji-famous.jpg" alt="" />
+            <h1>Fuji Mountain</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime provident nisi, aliquam cum non magni.</p>
+          </div>
+          <div class="box" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+            <img src="./image/k2-famous.jpg" alt="" />
+            <h1>K2 Mountain</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime provident nisi, aliquam cum non magni.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- famous -->
+
+    <!-- gallery -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="box-gallery">
+          <img src="./image/1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" />
+          <img src="./image/2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" />
+          <img src="./image/3.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
+          <img src="./image/4.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700" />
+          <img src="./image/5.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900" />
+          <img src="./image/6.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100" />
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="box-contact">
+          <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">Contact</h1>
+          <form action="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+            <table>
+              <tr>
+                <td><label for="nama">Nama</label></td>
+                <td><input type="text" id="nama" name="nama" placeholder="Masukkan Nama" autocomplete="off" /></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Masukkan Email" autocomplete="off" /></td>
+              </tr>
+              <tr>
+                <td><label for="pesan">Pesan</label></td>
+                <td><textarea name="pesan" id="pesan" placeholder="Masukkan Pesan..." autocomplete="off"></textarea></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <footer>
+      <p>&copy; 2022 by Ngoding Mastery</p>
+    </footer>
+    <!-- footer -->
+
+    <script src="./dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
